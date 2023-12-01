@@ -1,0 +1,24 @@
+{
+    "name": "asymetricdata/option",
+    "description": "Tweeked Option type for PHP, inspired by Rust",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AsymetricData\\Option\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "asymetricdata",
+            "email": "asymetricdata@proton.me"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.1.0"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.16"
+    }
+}
