@@ -2,6 +2,7 @@
     "name": "asymetricdata/option",
     "description": "Tweeked Option type for PHP, inspired by Rust",
     "type": "library",
+    "version" : "1.0.0",
     "autoload": {
         "psr-4": {
             "AsymetricData\\Option\\": "src/"
