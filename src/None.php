@@ -2,8 +2,15 @@
 
 namespace AsymetricData\Option;
 
+/**
+ * @template T
+ *
+ * @extends Option<T>
+ */
 class None extends Option
 {
+    /** @propery T $value */
+    
     public function isSome(): bool
     {
         return false;

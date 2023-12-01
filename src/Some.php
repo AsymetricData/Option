@@ -5,7 +5,7 @@ namespace AsymetricData\Option;
 /**
  * @template T
  *
- * @implements \Option<T>
+ * @extends Option<T>
  */
 class Some extends Option
 {
