@@ -12,6 +12,7 @@ composer require asymetricdata/option
 
 ## Example Usage
 
+```php
 <?php
 
 require 'vendor/autoload.php';
